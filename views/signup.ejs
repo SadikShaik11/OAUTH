@@ -1,0 +1,52 @@
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form input{
+        margin: 1rem;
+    }
+  #google{
+     background-color: rgb(202, 40, 40);
+     color: white;
+  }
+  #facebook{
+    background-color: blue;
+    color: white;
+  }
+      .Oauth{
+          padding: 1rem;
+      }
+      .Oauth a{
+          border-radius: 5px;
+          padding: 0.5rem;
+          text-decoration: none;
+          margin: 1rem;
+          font-size: larger;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+</style>
+<form action="" method="post">
+ <label for="name">Name</label>  
+ <input type="text" name="name" id="name">
+ <br> 
+<label for="email">Eamil</label>
+<input type="email" name = "email" id="email">
+<br>
+<label for="passwrod">password</label>
+<input type="password" name ="password" id="password">
+<br>
+<button>signup</button>
+<div class="Oauth">
+login with
+
+      
+              <a href="/google" id="google">  google </a> 
+          | <a href="/facebook" id="facebook">Facebook</a>
+</div> 
+
+<br>
+<a href="/signin">click here to signin
+</a>
+</form>
